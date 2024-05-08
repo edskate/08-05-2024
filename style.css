@@ -1,0 +1,22 @@
+.titulos{
+    color: aqua;
+    text-align: center;
+    text-shadow: 1px 2px 3px #000;
+}
+.linha{
+  
+}
+.item{
+    margin: 5px;
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.coluna{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*uma fração*/
+    color: aliceblue;
+    grid-template-rows: 200px 100px 50px 100px;
+
+}
